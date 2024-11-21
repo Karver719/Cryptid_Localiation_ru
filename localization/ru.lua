@@ -3142,8 +3142,13 @@ return {
             cry_noisy = "Noisy",
             cry_oversat = "Oversaturated",
 
-            cry_epic = "Epic",
-            cry_exotic = "Exotic"
+            k_cry_epic = "Эпический",
+            k_cry_exotic = "Экзотический",
+            k_cry_candy = "Конфетный",
+            k_cry_cursed  = "Проклятый",
+            k_planet_disc = "Околозвездный диск,
+            k_planet_satellite = "Естественные Спутники",
+            k_planet_universe = "Настоящая Ебучая Вселенная",
         },
         rnj_loc_txts = {
             stats = {
