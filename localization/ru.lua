@@ -682,19 +682,26 @@ return {
             j_cry_blurred = {
                 name = "Размытый Джокер",
                 text = {
-                    "Получить {C:blue}+#1#{} руку(и) когда",
-                    "{C:attention}Блайнд{} был выбран",
+                    "Получить {C:blue}+#1#{} руку(и) при",
+                    "выборе {C:attention}Блайнда{}",
                 },
             },
             j_cry_bonk = {
-                name = "Стук", -- остановился тут, завтра ещё проверю
+                name = "Стук",
                 text = {
-                    "Каждый {C:attention}Джокер{} дает {C:chips}+#1#{} Фишку",
+                    "Каждый {C:attention}Джокер{} дает {C:chips}+#1#{}шт. фишек",
                     "Увеличьте сумму на {C:chips}+#2#{} если",
                     "{C:attention} покерная рука{} имеет {C:attention}#3#{}",
                     "{C:inactive,s:0.8}Веселые Джокеры{} дают {C:chips,s:0.8}+#4#{} {C:inactive,s:0.8}Фишки{}",
                 },
             },
+	    j_cry_bonkers = {
+                name = "Bonkers Joker",
+                text = {
+                    "{C:red}+#1#{} Mult if played",
+                    "hand contains",
+                    "a {C:attention}#2#"
+                }
             j_cry_bonusjoker = {
                 name = "Бонусный Джокер",
                 text = {
